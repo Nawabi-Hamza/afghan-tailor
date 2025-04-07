@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "afghan-tailor",
+    "name": "Afghan-Tailor",
     "slug": "afghan-tailor",
-    "version": "1.0.0",
+    "Author": "Hamza-Nawabi",
+    "version": "1.0.3",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/tailor.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,21 +14,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/tailor.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hamzanawabi.afghantailor"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/tailor.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/tailor.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -36,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0876ec9d-7eab-4159-b59b-f1814431a560"
+      }
     }
   }
 }
